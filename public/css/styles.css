@@ -1,0 +1,38 @@
+* {
+  text-align: left;
+}
+
+h2,
+h1,
+p,
+i,
+i,
+h4,
+.container {
+  text-align: center;
+}
+
+
+.loginleft {
+  text-align: left;
+}
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.arrow {
+  color: #000;
+}

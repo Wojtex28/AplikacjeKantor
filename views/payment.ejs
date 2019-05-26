@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-dollar-sign fa-6x"></i>
+    <h1 class="display-3">Dokonaj wpłaty</h1>
+    <hr />
+    <div>
+      <form action="/payment" method="POST">
+        <div class="form-group">
+
+
+          <input name="payment" class="form-control" type="number" placeholder="Ilość" />
+
+
+
+          <select class="form-control" id="form3" name="curr">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>NOK</option>
+            <option>PLN</option>
+            <option>GBP</option>
+          </select>
+
+
+
+        </div>
+
+
+
+        <button class="btn btn-success" type="submit">Wpłać środki </button>
+      </form>
+    </div>
+    <div>
+      <a href="/kantor">
+        <i class="arrow fas fa-long-arrow-alt-left fa-5x"></i>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<%- include('partials/footer') %>

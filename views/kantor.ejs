@@ -1,0 +1,73 @@
+<%- include('partials/header') %>
+ 
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-dollar-sign fa-6x"></i>
+    <h1 class="display-3">Kantor</h1>
+ 
+    <h2>Twoje środki:</h2>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <h3>
+          <%=userEur%> EUR
+        </h3>
+      </div>
+      <div class="col">
+        <h3>
+          <%=userPln%> PLN
+        </h3>
+      </div>
+      <div class="col">
+        <h3>
+          <%=userNok%> NOK
+        </h3>
+      </div>
+      <div class="col">
+        <h3>
+          <%=userGbp%> GBP
+        </h3>
+      </div>
+      <div class="col">
+        <h3>
+          <%=userUsd%> USD
+        </h3>
+      </div>
+    </div>
+    <hr>
+ 
+    <div class="row">
+      <div class="col">
+        <h6>
+          KURS EUR:
+        </h6>
+      </div>
+      <div class="col">
+        <h6>
+          <%=Pln%> PLN
+        </h6>
+      </div>
+      <div class="col">
+        <h6>
+          <%=Nok%> NOK
+        </h6>
+      </div>
+      <div class="col">
+        <h6>
+          <%=Gbp%> GBP
+        </h6>
+      </div>
+      <div class="col">
+        <h6>
+          <%=Usd%> USD
+        </h6>
+      </div>
+    </div>
+    <hr>
+    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+    <a class="btn btn-dark btn-lg" href="/payment" role="button">Wpłać</a>
+    <a class="btn btn-primary btn-lg" href="/exchange" role="button">Wymień</a>
+  </div>
+</div>
+ 
+<%- include('partials/footer') %>
